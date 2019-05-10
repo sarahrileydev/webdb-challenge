@@ -16,3 +16,5 @@ router.get("/:id", async (req, res) => {
       .json({ message: "Error retrieving the action" });
   }
 });
+
+module.exports = router;
